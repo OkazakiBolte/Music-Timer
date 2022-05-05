@@ -10,14 +10,14 @@
 - ちょっとトリッキーだった
 
 ```
-10 06 * * * /usr/bin/bash /home/okazaki/my_palace/bgm/play.sh >> /tmp/cron.log 2>&1
+10 06 * * * /usr/bin/bash /home/okazaki/my_palace/bgm/play.sh >> /home/okazaki/my_palace/bgm/play.log 2>&1
 40 08 * * * /usr/bin/bash /home/okazaki/my_palace/bgm/pid-killer.sh
 
-00 18 * * * /usr/bin/bash /home/okazaki/my_palace/bgm/play.sh >> /tmp/cron.log 2>&1
+00 18 * * * /usr/bin/bash /home/okazaki/my_palace/bgm/play.sh >> /home/okazaki/my_palace/bgm/play.log 2>&1
 00 21 * * * /usr/bin/bash /home/okazaki/my_palace/bgm/pid-killer.sh
 ```
 
-- `>> /tmp/cron.log 2>&1`のようにエラーをファイルに書き出すことで、`cron`が動かなくてもエラー内容を確認できた
+- `>> /tmp/cron.log 2>&1`のようにエラーと標準出力をファイルに書き出すことで、`cron`が動かなくてもエラー内容を確認できた
 
 ## `play.sh`
 

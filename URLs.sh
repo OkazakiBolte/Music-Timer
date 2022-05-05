@@ -5,7 +5,11 @@ URLs=(
     "https://youtu.be/0N-X6vkVug8",
     "https://youtu.be/Zo3Ltf7rFkA",
     "https://youtu.be/F3OFIuIXcSo",
-    "https://youtu.be/_Kqtj14rxes"
+    "https://youtu.be/_Kqtj14rxes",
+    "https://youtu.be/fsHCWE4y-uI",
+    "https://youtu.be/k1OcBxp7DKA",
+    "https://youtu.be/2_aRBPJekjw",
+    "https://youtu.be/G1B4hAr3Ark"
 )
 
 #  # short videos for test
